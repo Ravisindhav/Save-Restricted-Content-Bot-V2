@@ -8,28 +8,28 @@
   "env": {
     "API_ID": {
       "description": "Get this value from https://my.telegram.org",
-      "value": "your_api_id_here",
+      "value": "27660379",
       "required": true
     },
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
-      "value": "your_api_hash_here",
+      "value": "19c71c27733f0954371085198855125a",
       "required": true
     },
     "BOT_TOKEN": {
       "description": "A Bot's token from Botfather",
-      "value": "your_bot_token_here",
+      "value": "7762057362:AAEy8VY60xMValDtX52ZOn-dQD72cP-UFPo",
       "required": true
     },
     "MONGO_DB": {
       "description": "Get a MongoDB URL from https://cloud.mongodb.com.",
-      "value": "your_mongodb_url_here",
+      "value": "mongodb+srv://sindhavravi11:<db_password>@cluster0.bwlgbx3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
       "required": true
     },
 
     "OWNER_ID": {
       "description": "The user ID of the user whom you would like to add as OWNER",
-      "value": "seperate multiple with space eg 1234 5678",
+      "value": "5459854363",
       "required": true
     },
 
@@ -41,7 +41,7 @@
     
     "WEBSITE_URL": {
       "description": "Enter shortener website domain eg upshrink.com",
-      "value": "upshrink.com",
+      "value": "https://github.com/Ravisindhav/Save-Restricted-Content-Bot-V2/blob/master/config.py",
       "required": false
     },
     "AD_API": {
@@ -52,12 +52,12 @@
     
     "FORCE_SUB": {
       "description": "Enter Channel ID (-100) and make bot admin there",
-      "value": "channel_id_here",
+      "value": "-1002791829191",
       "required": true
     },
     "LOG_GROUP": {
       "description": "Enter Log Channel/Group ID (-100) and make bot admin there",
-      "value": "log_group_id_here",
+      "value": "-1002791829191",
       "required": true
     }
   },
