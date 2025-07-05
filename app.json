@@ -23,7 +23,7 @@
     },
     "MONGO_DB": {
       "description": "Get a MongoDB URL from https://cloud.mongodb.com.",
-      "value": "mongodb+srv://sindhavravi11:<db_password>@cluster0.bwlgbx3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+      "value": "mongodb+srv://sindhavravi11:%24Sind1234567890@cluster0.bwlgbx3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
       "required": true
     },
 
