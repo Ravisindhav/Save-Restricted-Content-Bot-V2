@@ -56,14 +56,14 @@ YTUB_COOKIES = """
 .youtube.com	TRUE	/	FALSE	1742186100	ST-tladcw	session_logininfo=AFmmF2swRAIgTeCJRZ1zOsD-8eZsbNkjaTLafIJ7-Yf9PPFjUzzciskCICnmngozXRzShA-huiHhtbeqmR9JfZK16YBnGfr43M_7%3AQUQ3MjNmeElFMUJSdENIM3F0emJUdUliOVZZWTI0WldneFpoT3dMcFlzbVN4TDl2c0l0OUxFeXZQMHg3X0lyNXBIZkMxR1FSS2lQZU55T1BkcUFMVThzbWdHTUFHZFo0dXdNcmk2YnQzTWNDa1dZVmFaX3VoeDVGWTJPVThTaXplQmwycVpNUmExTzlBT3RFT0FSYzNmYXhzQXZMbWhYNzVn
 .youtube.com	TRUE	/	FALSE	1742186112	ST-1dkzvvd	itct=CN4EENwwIhMIht_B9qSQjAMV8-JMAh2NGwCpMgpnLWhpZ2gtcmVjWg9GRXdoYXRfdG9fd2F0Y2iaAQYQjh4YngE%3D&csn=M9Hr3n6r2IS4EpoG&session_logininfo=AFmmF2swRAIgTeCJRZ1zOsD-8eZsbNkjaTLafIJ7-Yf9PPFjUzzciskCICnmngozXRzShA-huiHhtbeqmR9JfZK16YBnGfr43M_7%3AQUQ3MjNmeElFMUJSdENIM3F0emJUdUliOVZZWTI0WldneFpoT3dMcFlzbVN4TDl2c0l0OUxFeXZQMHg3X0lyNXBIZkMxR1FSS2lQZU55T1BkcUFMVThzbWdHTUFHZFo0dXdNcmk2YnQzTWNDa1dZVmFaX3VoeDVGWTJPVThTaXplQmwycVpNUmExTzlBT3RFT0FSYzNmYXhzQXZMbWhYNzVn&endpoint=%7B%22clickTrackingParams%22%3A%22CN4EENwwIhMIht_B9qSQjAMV8-JMAh2NGwCpMgpnLWhpZ2gtcmVjWg9GRXdoYXRfdG9fd2F0Y2iaAQYQjh4YngE%3D%22%2C%22commandMetadata%22%3A%7B%22webCommandMetadata%22%3A%7B%22url%22%3A%22%2Fwatch%3Fv%3DOEuiB_7iPl4%22%2C%22webPageType%22%3A%22WEB_PAGE_TYPE_WATCH%22%2C%22rootVe%22%3A3832%7D%7D%2C%22watchEndpoint%22%3A%7B%22videoId%22%3A%22OEuiB_7iPl4%22%2C%22watchEndpointSupportedOnesieConfig%22%3A%7B%22html5PlaybackOnesieConfig%22%3A%7B%22commonConfig%22%3A%7B%22url%22%3A%22https%3A%2F%2Frr1---sn-gwpa-w5pe7.googlevideo.com%2Finitplayback%3Fsource%3Dyoutube%26oeis%3D1%26c%3DWEB%26oad%3D3200%26ovd%3D3200%26oaad%3D11000%26oavd%3D11000%26ocs%3D700%26oewis%3D1%26oputc%3D1%26ofpcc%3D1%26siu%3D1%26msp%3D1%26odepv%3D1%26id%3D384ba207fee23e5e%26ip%3D2409%253A4052%253A4e86%253Ac6bf%253A0%253A0%253A608a%253A3c11%26initcwndbps%3D588750%26mt%3D1742185736%26oweuc%3D%26pxtags%3DCg4KAnR4Egg1MTQxNDI0MA%26rxtags%3DCg4KAnR4Egg1MTQxNDIzOQ%252CCg4KAnR4Egg1MTQxNDI0MA%22%7D%7D%7D%7D%7D"""
 
-API_ID = os.getenv("API_ID", "28094744")
-API_HASH = os.getenv("API_HASH", "a75af4285edc7747c57bb19147ca0b9b")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8084560097:AAEPifeVRNcag0XFm3YxuK_kOOiI7tOwHXk")
-MONGO_URI = os.getenv("MONGO_DB", "mongodb+srv://tmglcd:kI1UijMr2jJXyOXY@cluster0.unjzi.mongodb.net/telegram_downloader?retryWrites=true&w=majority")
-OWNER_ID = list(map(int, os.getenv("OWNER_ID", "5680454765").split())) # list seperated via space
+API_ID = os.getenv("API_ID", "27660379")
+API_HASH = os.getenv("API_HASH", "19c71c27733f0954371085198855125a")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "7762057362:AAEy8VY60xMValDtX52ZOn-dQD72cP-UFPo")
+MONGO_URI = os.getenv("MONGO_DB", "mongodb+srv://sindhavravi11:<db_password>@cluster0.bwlgbx3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+OWNER_ID = list(map(int, os.getenv("OWNER_ID", "5459854363").split())) # list seperated via space
 DB_NAME = os.getenv("DB_NAME", "telegram_downloader")
 STRING = os.getenv("STRING", None) # optional
-LOG_GROUP = int(os.getenv("LOG_GROUP", -1002413816861)) # optional with -100
-FORCE_SUB = int(os.getenv("FORCE_SUB", -1002482370758)) # optional with -100
+LOG_GROUP = int(os.getenv("LOG_GROUP", -1002791829191)) # optional with -100
+FORCE_SUB = int(os.getenv("FORCE_SUB", -1002791829191)) # optional with -100
 YT_COOKIES = os.getenv("YT_COOKIES", YTUB_COOKIES)
 INSTA_COOKIES = os.getenv("INSTA_COOKIES", INST_COOKIES)
