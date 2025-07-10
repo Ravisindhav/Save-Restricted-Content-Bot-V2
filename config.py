@@ -58,7 +58,7 @@ YTUB_COOKIES = """
 
 API_ID = os.getenv("API_ID", "27660379")
 API_HASH = os.getenv("API_HASH", "19c71c27733f0954371085198855125a")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "7762057362:AAEy8VY60xMValDtX52ZOn-dQD72cP-UFPo")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8127191018:AAGQSH9jBElFhcnQ0u426MdJrweoc7bbUG0")
 MONGO_URI = os.getenv(
     "MONGO_DB",
     "mongodb+srv://sindhavravi11:%24Sind1234567890@cluster0.bwlgbx3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
