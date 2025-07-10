@@ -24,13 +24,18 @@ async def load_and_run_plugins():
 
 async def main():
     await load_and_run_plugins()
-    await asyncio.Event().wait()  # ✅ keeps the bot running forever
+    while True:
+        await asyncio.sleep(1)
 
 if __name__ == "__main__":
+    loop = asyncio.get_event_loop()
+    print("Starting clients ...")
     try:
-        asyncio.run(main())  # ✅ fixed: replaced `...` with correct call
+        loop.run_until_complete(main())
     except KeyboardInterrupt:
         print("Shutting down...")
     except Exception as e:
         print(e)
         sys.exit(1)
+    finally:
+        loop.close()
